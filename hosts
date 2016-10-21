@@ -11,6 +11,10 @@
 104.20.44.44	news.ycombinator.com
 104.16.100.52	hackerone.com
 104.16.62.10	profile-photos.hackerone-user-content.com
+151.101.65.69	stackoverflow.com
+198.252.206.16	sstatic.net
+151.101.65.69	cdn.sstatic.net
+198.252.206.25	qa.sockets.stackexchange.com
 54.239.25.200	amazon.com
 54.239.31.64	apigateway.us-east-1.amazonaws.com
 52.95.18.135	apigateway.us-east-2.amazonaws.com
@@ -497,7 +501,4 @@
 52.95.34.66	ap-northeast-1.queue.amazonaws.com
 54.239.55.82	eu-central-1.queue.amazonaws.com
 54.239.34.175	eu-west-1.queue.amazonaws.com
-177.72.245.241	sa-east-1.queue.amazonaws.com
-54.231.121.1	s3-website-us-east-1.amazonaws.com
-52.92.77.18	s3-website.us-east-2.amazonaws.com
-54.239.31.22	swf
+177.72.245.241	sa-east-
