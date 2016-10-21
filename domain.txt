@@ -27,6 +27,12 @@ news.ycombinator.com
 hackerone.com
 profile-photos.hackerone-user-content.com
 
+### stackoverflow ###
+stackoverflow.com
+sstatic.net
+cdn.sstatic.net
+qa.sockets.stackexchange.com
+
 ### amazon / aws ###
 amazon.com
 apigateway.us-east-1.amazonaws.com
