@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hosts by tomahock</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hosts</h1>
+        <p>A curated list of hosts to use when the internet is broken!</p>
+
+        <p class="view"><a href="https://github.com/tomahock/hosts">View the Project on GitHub <small>tomahock/hosts</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/tomahock/hosts/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/tomahock/hosts/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/tomahock/hosts">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="hosts" class="anchor" href="#hosts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hosts</h1>
+
+<p>A curated list of hosts to use when the internet is broken!</p>
+
+<h2>
+<a id="why" class="anchor" href="#why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why?</h2>
+
+<p>You know what to blame when something is broken! <em>D</em>omain <em>N</em>ame <em>S</em>ystem or what you probably know as <em>DNS</em>! You also probably hear about some <a href="https://krebsonsecurity.com/2016/08/inside-the-attack-that-almost-broke-the-internet/">DDoS</a> <a href="https://business.kaspersky.com/root-servers-ddos/4978/">DNS</a> <a href="https://krebsonsecurity.com/2016/10/ddos-on-dyn-impacts-twitter-spotify-reddit/">Attacks</a>.</p>
+
+<h2>
+<a id="how" class="anchor" href="#how" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How?</h2>
+
+<p>I have my own <a href="https://pi-hole.net">pi-hole</a> instance that uses <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a>. All my devices are configured to have their nameservers pointed to my pi-hole. Dnsmasq allows to have extra hosts files. So on my rPi I have this repo with a cronjob that refreshes this hosts list and commits to this repo! You can get your own rPi running pi-hole and add this host file by just adding it on the dnsmasq config!
+You can also just copy paste to <code>/etc/hosts</code> :)</p>
+
+<h2>
+<a id="domains" class="anchor" href="#domains" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Domains</h2>
+
+<p>The domain list it's a personal list of must have ips! If you want to have another domain here just Pull Request the domain.txt!</p>
+
+<hr>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>This software is released under the MIT License.</p>
+
+<p>Copyright (C) 2016 João Pina</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/tomahock">tomahock</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
